@@ -10,8 +10,6 @@ import { Routes, useNavigate, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { format } from "date-fns";
 
-// import api from "./api/posts";
-// import axios from "axios";
 import useFetch from "./hooks/useFetch";
 import api from "./api/posts";
 
